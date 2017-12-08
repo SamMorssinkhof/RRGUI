@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="258.0" prefWidth="255.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="291.0" text="Choose a name">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+            </Label>
+            <HBox prefHeight="205.0" prefWidth="431.0">
+               <children>
+                  <Label text="Name:">
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="112.0" prefWidth="147.0">
+                     <children>
+                        <TextField prefHeight="35.0" prefWidth="147.0">
+                           <padding>
+                              <Insets bottom="5.0" />
+                           </padding>
+                        </TextField>
+                        <Region prefHeight="58.0" prefWidth="147.0" />
+                        <Region prefHeight="11.0" prefWidth="100.0" />
+                        <Button mnemonicParsing="false" prefHeight="1.0" prefWidth="60.0" text="Add" />
+                        <Region prefHeight="126.0" prefWidth="147.0" />
+                        <Button layoutX="10.0" layoutY="46.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="60.0" text="Cancel" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Region prefHeight="68.0" prefWidth="244.0" BorderPane.alignment="CENTER" />
+   </top>
+   <right>
+      <Region BorderPane.alignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Region>
+   </right>
+   <left>
+      <Region BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <Region prefHeight="61.0" prefWidth="599.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
